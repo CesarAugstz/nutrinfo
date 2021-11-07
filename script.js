@@ -100,10 +100,10 @@ function openresult() {
     var local_rprot = document.getElementById("prot_value")
     var local_rfat = document.getElementById("fat_value")
     var local_rfib = document.getElementById("fib_value")
-    local_rcarb.innerHTML = carbs  + 'g'
-    local_rprot.innerHTML = prots + 'g'
-    local_rfat.innerHTML = fats + 'g'
-    local_rfib.innerHTML = fibs + 'g'
+    local_rcarb.innerHTML = carbs.toFixed(2)  + 'g'
+    local_rprot.innerHTML = prots.toFixed(2) + 'g'
+    local_rfat.innerHTML = fats.toFixed(2) + 'g'
+    local_rfib.innerHTML = fibs.toFixed(2) + 'g'
 
     
     let local_refcal_btn = document.getElementById("refcalc_btn");
