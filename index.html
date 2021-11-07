@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutr!nfo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header id="header"> Nutr<strong>!</strong>nfo </header>
+    <main id="main">
+        <section id="header_input">
+            <div id="choose_item">
+                <label for="item" id="label_choose">Escolha um item:</label>
+                <select name="item_selected" id="item" required>
+                    <option value="" disabled>--</option>
+                    
+                </select>
+            </div>
+            <div id="mass_item">
+                <label for="massa_produto" id="label_mass">Digite o peso:</label>
+                <input type="number" name="peso" id="massa_produto" required>
+            </div>
+            <input type="button" value="add" id="add_btn">
+        </section>
+        <section id="product_detail">
+            <div id="name_product_detail">
+                <header id="header_name_product_detail">Produto</header>
+                <ul id="list_name">
+                    
+                </ul>
+            </div> 
+            <aside id="mass_product_detail">
+                <header id="header_mass_product_detail">g</header>
+                <ul id="list_mass">
+                    
+                </ul>
+            </aside>                
+        </section>
+        <input type="button" value="Calcular" id="calc_btn">
+    </main>
+    <footer></footer>
+</body>
+</html>
